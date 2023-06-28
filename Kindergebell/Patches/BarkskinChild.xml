@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/FurDef[defName="VRE_BarkSkin"]/bodyTypeGraphicPaths/Child</xpath>
+		<value>
+			<Child>Things/Pawn/Humanlike/Bodies/BarkSkin_Child</Child>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/FurDef[defName="VRE_BarkSkin"]/bodyTypeGraphicPaths/Baby</xpath>
+		<value>
+			<Baby>Things/Pawn/Humanlike/Bodies/BarkSkin_Child</Baby>
+		</value>
+	</Operation>
+</Patch>

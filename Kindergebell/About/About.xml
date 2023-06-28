@@ -1,0 +1,22 @@
+<ModMetaData>
+	<name>Barkskin Child Body Fix</name>
+	<author>Zergologist</author>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>vanillaracesexpanded.phytokin</packageId>
+			<displayName>Vanilla Races Expanded - Phytokin</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2927323805</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>vanillaracesexpanded.phytokin</li>
+	</loadAfter>
+	<packageId>chedder.barkskinchid</packageId>
+	<description>
+		If you've ever managed to either find or aquire a child of a Phytokin (or otherwise barkskin) xenotype, you might notice how the child's bodies are just a bit... off. The actual barkskin gene doesn't have a child graphic to reference from for the child itself.
+
+		...Until now! Unless (if) you're reading this after VE's patched it! Presenting this atrocious mod that simply adds in new assets for the barkskin child graphics and patches them into the game. Why didn't I report this issue to Oskar? Given that VE has since fixed the single missing patch in VE, the only reason I'm posting this is because I've already made the bodies and you can't stop me from posting them.</description>
+</ModMetaData>
