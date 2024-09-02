@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+        <!--This is the singular patch needed for 1.5's couch-->
+    <Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "Couch"]/building</xpath>
+		<value>
+			<paintable>true</paintable>
+		</value>
+	</Operation>
+
+</Patch>

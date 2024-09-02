@@ -4,12 +4,13 @@
 	<author>Zergologist</author>
 	<supportedVersions>
 		<li>1.4</li>
+		<li>1.5</li>
 	</supportedVersions>
 	<packageId>chedder.matchingcloth</packageId>
 	<description>Let me walk you through my thought process - I want a very simple, a very clean and overall unintrisive mod that gives me paintable objects in the vanilla game with the DLC. That can't be too hard to ask for, right? I only ask that you don't ask for more.
 	
 	Base game rimworld has some strange things as non-paintable, like directly specifying in the code that animal flaps shouldn't be painted? If you want mod compatibility or a different selection of items paintable, go check out Paintable Spots and Objects.
-	Affected Objects include: Animal Bed, Animal flaps, Armchair, Sandbags, Toolbox, Drapes, Ideograms, Kneel Pillows, Kneel Sheets, Autobong and All the floor coverings, literally all of them using the floor covering base</description>
+	Affected Objects include: Animal Bed, Animal flaps, Armchair, Sandbags, Toolbox, Drapes, Ideograms, Kneel Pillows, Kneel Sheets, Autobong and All the floor coverings, literally all of them using the floor covering base; 1.5 Update now has the couch as paintable.</description>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Royalty</li>
