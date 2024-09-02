@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VFEI2_TendrilmossVines"]/plant/harvestYield</xpath>
+		<value>
+			<harvestYield>8</harvestYield>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VFEI2_JellyMorpher"]/comps/li[@Class="VFEInsectoids.CompProperties_FueledSpawner"]/spawnCount</xpath>
+		<value>
+			<spawnCount>1</spawnCount>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VFEI2_JellyMorpher"]/comps</xpath>
+		<value>
+			<li Class="CompProperties_Glower">
+				<glowRadius>4.9</glowRadius>
+				<glowColor>(253,196,51)</glowColor>
+			</li>
+		</value>
+	</Operation>
+</Patch>

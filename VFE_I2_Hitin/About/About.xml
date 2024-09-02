@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>VFE-I2 Adjustments Patch</name>
+	<author>Zergologist</author>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<packageId>chedder.Insectoid2.patch</packageId>
+	<description>This little patch changes a couple of values around, largest of them being the jelly morpher. Instead of being straight up better than an empress in terms of jelly production, it is now significantly weaker; it's only benefit is how soon it starts producing, maybe food consumption too.
+	
+This wouldn't be complete without the other patches, would it? Tendrillmoss gains a signficant buff, and, if it stays, the Silverfish is also gaining a chitin buff: 20 chitin every five days. Hope this is worth the morpher nerf!</description>
+	<modDependencies>
+		<li>
+			<packageId>OskarPotocki.VFE.Insectoid2</packageId>
+			<displayName>Vanilla Factions Expanded - Insectoids 2</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3309003431</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>OskarPotocki.VFE.Insectoid2</li>
+	</loadAfter>
+</ModMetaData>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSetName">
+		<xpath>/Defs/ThingDef[defName = "AncientExostriderRemains"]/killedLeavings/ChunkSlagSteel</xpath>
+		<name>ChunkMechanoidSlag</name>
+	</Operation>
+
+	<Operation Class="PatchOperationSetName">
+		<xpath>/Defs/ThingDef[defName = "AncientExostriderCannon"]/killedLeavings/ChunkSlagSteel</xpath>
+		<name>ChunkMechanoidSlag</name>
+	</Operation>
+
+	<Operation Class="PatchOperationSetName">
+		<xpath>/Defs/ThingDef[defName = "AncientExostriderHead"]/killedLeavings/ChunkSlagSteel</xpath>
+		<name>ChunkMechanoidSlag</name>
+	</Operation>
+
+	<Operation Class="PatchOperationSetName">
+		<xpath>/Defs/ThingDef[defName = "AncientExostriderLeg"]/killedLeavings/ChunkSlagSteel</xpath>
+		<name>ChunkMechanoidSlag</name>
+	</Operation>
+
+</Patch>

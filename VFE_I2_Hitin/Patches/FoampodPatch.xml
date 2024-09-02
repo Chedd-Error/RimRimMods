@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="VFEI2_FoamPod"]/comps/li[@Class="CompProperties_Lifespan"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VFEI2_FoamPod"]/comps</xpath>
+		<value>
+			<li Class="CompProperties_Maintainable">
+				<compClass>VFEInsectoids.CompMaintenableHive</compClass>
+				<ticksHealthy>900000</ticksHealthy>
+				<ticksNeedsMaintenance>300000</ticksNeedsMaintenance>
+				<damagePerTickRare>10</damagePerTickRare>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="VFEI2_FoamPod"]/description</xpath>
+		<value>
+			<description>An organic, firefoam pod produced by giant insects. When it senses fire, the pod pops and sprays a fire-retardant foam in a circular field around itself. Can also be triggered manually. It seldom requires maintenance and lasts for around 20 days before popping even if left completely unmaintained.</description>
+		</value>
+	</Operation>
+	
+</Patch>
